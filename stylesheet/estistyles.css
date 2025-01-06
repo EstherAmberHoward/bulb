@@ -1,0 +1,15 @@
+
+body {
+    font-family: "montagu slab",;
+    background-color: rgb(135, 106, 67);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    border-style: solid black (4px 4px 4px 4px);
+    border: 4px;
+}
