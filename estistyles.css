@@ -44,34 +44,57 @@ h6{
     padding: 0 20% 0 20%;
 }
 
-/* HEADER BUTTON from here to 55*/
+/* HEADER BUTTON FROM HERE*/
 btn-head {
     font-family: "montagu slab";
     font-size: 1rem;
 	font-weight: 700;
-	color: rgba(0, 0, 0, 0.85);
+	color: #222222;
 	font-style: normal;
 	line-height: 1.15;
 	letter-spacing: 0;
 	font-variation-settings: 'opsz' 16;
-	filter: drop-shadow(0rem 0rem 0rem rgba(0, 0, 0, 0.85));
+	filter: drop-shadow(0rem 0rem 0rem #222222);
 	will-change: filter;
     cursor: pointer;
-    background-color: #35d99d;
+    background-color: #36a9d2;
     display: inline-flex;
     padding: 12px ;
     border-radius: 12px;
-    border: solid 3px #000000;
-    filter: drop-shadow(4px 4px 0px #000000);
+    border: solid 3px #222222;
+    filter: drop-shadow(4px 4px 0px #222222);
 	border-style: solid;
 }
 btn-head:hover{
     background-color: #e99;
     filter: brightness(85%);
-border: solid 3px #000000;
-filter: drop-shadow(-4px -4px 0px rgba(0, 0, 0, 0));
-transform: translateY(4px) translateX(4px);
+    border: solid 3px #222222;
+    filter: drop-shadow(2px 2px 0px #222222);
+    transform: translateY(2px) translateX(2px);
 }
+btn-head:active{
+    background-color: rgb(219, 111, 111);
+}
+
+btn-head-pressed{
+    font-family: "montagu slab";
+    font-size: 1rem;
+    color: #222222;
+    font-style: normal;
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-variation-settings: 'opsz' 16;
+    background-color: #e99;
+    padding: 12px;
+    display: inline-flex;
+    border-radius: 12px;
+    border: solid 3px #222222;
+    transform: translateY(4px) translateX(4px);
+
+}
+/* HEADER BUTTON ENDS HERE*/
+
 
 header  {
     position: fixed;
