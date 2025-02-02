@@ -181,10 +181,10 @@ grid-holder {
     flex-direction: column;
     background-color: none;
 }
-.grid-container {
+ .grid-container {
     columns: 3 200px;
-    column-gap: 1rem;
-    width: 90%;
+    column-gap: 0%;
+    width: 100%;
     overflow: auto;
     height: fit-content;
     display: block;
@@ -192,15 +192,14 @@ grid-holder {
     align-items: center;
     flex-wrap: wrap;
     div {
-      margin: 1rem;
+      margin: 10px;
       transition: all .25s ease-in-out;
       display: inline-block;
-      &:hover img {
-
-      }
+      border-radius: 12px;
       &:hover {
-              transform: scale(1.05);
-              filter: grayscale(25%);
+              transform: scale(1.025);
+              filter: opacity(95%);
+      }
       }
       img {
         filter: grayscale(0%);
