@@ -216,3 +216,150 @@ grid-holder {
       }
     }
   }
+.body {
+    margin: unset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    background: none;
+    color: red;
+    position: relative;
+}
+
+.navbar ul {
+    margin: unset;
+    padding: unset;
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-toggle {
+    display: flex;
+}
+
+.navbar a.button {
+    font-family: "montagu slab";
+    font-size: 1rem;
+	font-weight: 700;
+	color: #222222;
+	font-style: normal;
+	line-height: 1.15;
+	letter-spacing: 0;
+	font-variation-settings: 'opsz' 16;
+	filter: drop-shadow(0rem 0rem 0rem #222222);
+	will-change: filter;
+    cursor: pointer;
+    background-color: #36a9d2;
+    display: inline-flex;
+    padding: 12px ;
+    border-radius: 12px;
+    border: solid 3px #222222;
+    filter: drop-shadow(4px 4px 0px #222222);
+	border-style: solid;
+    text-decoration: none;
+    margin: 1em;
+    align-items: center;
+}
+
+.navbar a.button:hover{
+    background-color: #e99;
+    filter: brightness(85%);
+    border: solid 3px #222222;
+    filter: drop-shadow(2px 2px 0px #222222);
+    transform: translateY(2px) translateX(2px);
+}
+
+.navbar a.home {
+    background: none;
+}
+
+.navbar .hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: unset;
+    background: unset;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar .hamburger svg {
+    stroke: red;
+
+}
+
+.navbar .hamburger .icon-close {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .navbar.open ul {
+        display: block;
+    }
+
+    .navbar.open .nav-toggle {
+        display: block;
+    }
+
+    .navbar.open a {
+        display: inline-flex;
+    }
+
+
+    .navbar .nav-toggle {
+        display: none;
+    }
+
+    .navbar .hamburger {
+        display: block;
+    }
+
+    .navbar.open .hamburger .icon-open {
+        display: none;
+
+    }
+    .navbar.open .hamburger .icon-close {
+        display: block;
+    }
+}
+
+#HomeHeader {
+    background-color: #ffe343;
+}
+
+#HomeHeader:hover {
+    background-color: #ffb53f;
+}
+
+#PortfolioHeader {
+    background-color: #32bbff;
+}
+
+#PortfolioHeader:hover {
+    background-color: #3496e6;
+}
+
+#AboutHeader {
+    background-color: #fa624a;
+}
+
+#AboutHeader:hover{
+    background-color: #ff7b4b;
+}
+
+#ShopHeader {
+    background-color: #7dec41;
+    padding: 6px;
+    align-content: center;
+}
+
+#ShopHeader:hover {
+    background-color: #6cd733;
+}
+
+#ShopHeaderSVG {
+    background-color: none;
+    padding: 0px;
+    margin: 0px;
+}
