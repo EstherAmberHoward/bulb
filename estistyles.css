@@ -1,6 +1,5 @@
 
 body {
-    padding: 110px 0 0 0;
     align-self: center;
     background-color: #ffffff;
 }
@@ -94,26 +93,6 @@ btn-head-pressed{
 
 }
 /* HEADER BUTTON ENDS HERE*/
-
-.about {background-color: #ffb30f;}
-.about:hover {background-color: #ff7f0f;}
-.about:active {background-color: #ff770f;}
-.about-pressed {background-color: #ffb30f;}
-
-.contact {background-color: #59b3ff;}
-.contact:hover {background-color: #2e96ec;}
-.contact:active {background-color: #2980b9;}
-.contact-pressed {background-color: #59b3ff;}
-
-.portfolio {background-color: #81ce55;}
-.portfolio:hover {background-color: #25bd20;}
-.portfolio:active {background-color: #25bd20;}
-.portfolio-pressed {background-color: #81ce55;}
-
-.media {background-color: #ff696e;}
-.media:hover {background-color: #ff3f44;}
-.media:active {background-color: #ff3f44;}
-.media-pressed {background-color: #ff696e;}
 
 /* FLIP CARD from here to 113 */
 .flip-card {
