@@ -2,7 +2,7 @@
 body {
     padding: 110px 0 0 0;
     align-self: center;
-    background-color: #FFF1E6;
+    background-color: #ffffff;
 }
 
 p { 
@@ -115,18 +115,6 @@ btn-head-pressed{
 .media:active {background-color: #ff3f44;}
 .media-pressed {background-color: #ff696e;}
 
-
-header  {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 99;
-    background-color: rgb(248, 220, 220);
-    line-height: 100px;
-    display: flex; 
-    justify-content: center;
-  }
 /* FLIP CARD from here to 113 */
 .flip-card {
     background-color: transparent;
