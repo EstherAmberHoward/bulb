@@ -3,25 +3,44 @@
  <head>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1" />
- <link href="estistyles.css" rel="stylesheet" />
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap" rel="stylesheet">
+ <link href="ColTest.css" rel="stylesheet" />
  </head>
-<header>  
-    <span>
-    <a href="media.html"><btn-head class="media"> MEDIA</btn-head>  </a>
-    &nbsp;&nbsp;&nbsp;&nbsp; <!-- five breaks because i cannot figure out how to justify or space the buttons-->
-    <a href="portfolio.html"><btn-head-pressed class="portfolio-pressed">  PORTFOLIO </btn-head-pressed></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="index.html"><img src="esther-amber-howard-banner-2023.png" alt="Esther Amber Howard" height="80px"></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="about.html"><btn-head class="about">  ABOUT </btn-head></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="contact.html"><btn-head class="contact">  CONTACT </btn-head></a>
-    </span>
-</header> 
 
- <h1> Portfolio </h1>
+ <body>
+    <nav id="navbar" class="navbar open">
+     <ul>
+         <li>
+            <a href="index.html" class="home"><img src="Placement-name.png" height="100px"></a>
+         </li>
+    <div class="nav-toggle">
+        <li>
+            <a href="index.html" class="button" id="HomeHeader">HOME</a>
+        </li>
+        <li>
+            <a href="portfolio.html" class="button" id="PortfolioHeader">PORTFOLIO</a>
+        </li>
+        <li>
+            <a href="about.html" class="button" id="AboutHeader">ABOUT</a>
+        </li>
+        <li>
+            <a href="" class="button" id="ShopHeader">&nbsp;SHOP<img src="OpenNewWindowSVG.svg" height="30px" id="ShopHeaderSVG"></a>
+        </li>
+     </div>
+    </ul>
+    <button class="hamburger" id="hamburger-toggle">
+        <div class="icon-open">
+        <svg  xmlns="http://www.w3.org/2000/svg"  width="48"  height="48"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" />
+        </svg>
+    </div>
 
- <p>This is my portfolio page. Here I will showcase my work and talk about them</p>
+    <div class="icon-close">
+        <svg  xmlns="http://www.w3.org/2000/svg"  width="48"  height="48"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
+    </div>
+   </button>
+</nav>
+<h1>Header goes here</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus soluta optio, iste corrupti hic numquam perferendis inventore dicta facilis! Voluptatibus corrupti minima ut enim, impedit incidunt cupiditate aspernatur modi numquam.</p>
+<script src="EstiJava.js"></script>
+</body>
+</html>
