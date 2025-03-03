@@ -290,6 +290,13 @@ grid-holder {
     }
 }
 
+@media screen and (max-width: 670px) {
+    .navbar .home img{
+        width: 90%;
+    }
+    
+}
+
 #HomeHeader {
     background-color: #ffe343;
 }
