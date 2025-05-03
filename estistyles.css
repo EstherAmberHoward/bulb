@@ -22,8 +22,6 @@ h1 {
     font-size: 30pt;
     color: white;
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: black;
-    text-shadow: 5px 5px 0 #000;
 }
 
 h2 {
