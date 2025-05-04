@@ -22,6 +22,14 @@ h1 {
     font-size: 30pt;
     color: black;
 }
+h1 > span {
+ background:
+   linear-gradient(-300deg,transparent 10px,orange 10px) bottom left,
+   linear-gradient(-120deg,transparent 10px,orange 10px) bottom right;
+ background-size: 70% 10px;
+ background-repeat: no-repeat;
+ padding: 0 15px 0 15px;
+}
 
 h2 {
     font-size: 16pt;
