@@ -46,27 +46,28 @@
 <h1><span>Portfolio</span></h1>
 <p>Welcome to my portfolio page! Let the exploration begin, one click at a time ... </p>
 
-<div class="tab">
-  <button class="tablinks" onclick="openSection(event, 'Sketchbook')">Sketchbook</button>
-  <button class="tablinks" onclick="openSection(event, 'Printmaking')">Printmaking</button>
-  <button class="tablinks" onclick="openSection(event, 'Textile')">Textile</button>
-</div>
-
-
+<ul class="tabholder">
+ <div class="tab">
+  <li class="tablinks"  onclick="openSection(event, 'Sketchbook')"  id=SketchbookTab>Sketchbook</li>
+  <li class="tablinks"  onclick="openSection(event, 'Printmaking')"  id=PrintmakingTab>Printmaking</li>
+  <li class="tablinks"  onclick="openSection(event, 'Textiles')"  id=TextilesTab>Textiles</li>
+ </div>
+</ul>
 <div id="Sketchbook" class="tabcontent">
-  <h3>Scketchbook</h3>
-  <p>London is the capital city of England.</p>
+  <h3>Sketchbook</h3>
+  <p>Various excerpts of my sketchbook</p>
 </div>
 
 <div id="Printmaking" class="tabcontent">
   <h3>Printmaking</h3>
-  <p>Paris is the capital of France.</p>
+  <p>Work relating to print.</p> 
 </div>
 
-<div id="Textile" class="tabcontent">
-  <h3>Textile</h3>
-  <p>Tokyo is the capital of Japan.</p>
+<div id="Textiles" class="tabcontent">
+  <h3>Textiles</h3>
+  <p>Work relating to textiles.</p>
 </div>
+
 <script src="EstiJava.js"></script>
 </body>
 </html>
