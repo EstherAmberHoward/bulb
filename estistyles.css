@@ -226,6 +226,7 @@ grid-holder {
     text-decoration: none;
     margin: 1em;
     align-items: center;
+    float: right;
 }
 
 .navbar a.button:hover{
