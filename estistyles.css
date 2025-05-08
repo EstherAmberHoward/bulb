@@ -37,7 +37,10 @@ h2 {
     padding: 0;
     line-height: 1.5;
 }
-
+h3 {    
+    font-family: "montagu slab";
+    font-size: 1rem;
+}
 
 /* HEADER BUTTON FROM HERE*/
 btn-head {
