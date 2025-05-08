@@ -370,19 +370,19 @@ tab {
 }
 
 #SketchbookTab {
-  background-color: purple;
+  background-color: #7dec41;
 }
 #SketchbookTab.active{
   background-color: white;
 }
 #PrintmakingTab{
-  background-color: lightblue;
+  background-color: #ffe343;
 }
 #PrintmakingTab.active{
   background-color: white;
 }
 #TextilesTab {
-  background-color: red;
+  background-color: #fa624a;
 }
 #TextilesTab.active{
   background-color: white;
