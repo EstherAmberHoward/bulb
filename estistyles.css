@@ -356,7 +356,7 @@ tab {
   border-bottom: none;
   background-color: aqua;
   height: 30px;
-  padding: 6px 12px 12px 12px;
+  padding: 0px 12px 12px 12px;
   border-radius: 12px 12px 0 0;
 } /*individual tabs*/
 .active {
