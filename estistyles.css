@@ -387,7 +387,7 @@ tab {
 #TextilesTab.active{
   background-color: white;
 }/*styling for each separate tab when not active. helps with clarity and navigation*/
-@media screen and (max-width: 300px){
+@media screen and (max-width: 400px){
   tab {
     margin: 0 -15px 0 0;
   }
