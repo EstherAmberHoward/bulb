@@ -288,6 +288,7 @@ grid-holder {
     }
     .navbar.open .hamburger .icon-close {
         display: block;
+	transition: 0.5s;
     }
 }
 
