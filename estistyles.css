@@ -97,6 +97,7 @@ btn-head-pressed{
 .btn {
     font-family: "montagu slab";
     font-size: 1rem;
+	text-decoration: none;
 	font-weight: 700;
 	color: #222222;
 	font-style: normal;
