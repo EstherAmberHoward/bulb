@@ -93,6 +93,38 @@ btn-head-pressed{
 }
 /* HEADER BUTTON ENDS HERE*/
 
+/* button styles*/
+.btn {
+    font-family: "montagu slab";
+    font-size: 1rem;
+	font-weight: 700;
+	color: #222222;
+	font-style: normal;
+	line-height: 1.15;
+	letter-spacing: 0;
+	font-variation-settings: 'opsz' 16;
+	filter: drop-shadow(0rem 0rem 0rem #222222);
+	will-change: filter;
+    cursor: pointer;
+    background-color: #36a9d2;
+    display: inline-flex;
+    padding: 12px ;
+    border-radius: 12px;
+    border: solid 3px #222222;
+    filter: drop-shadow(4px 4px 0px #222222);
+	border-style: solid;
+}
+.btn:hover{
+    background-color: #e99;
+    filter: brightness(85%);
+    border: solid 3px #222222;
+    filter: drop-shadow(2px 2px 0px #222222);
+    transform: translateY(2px) translateX(2px);
+}
+.btn:active{
+    background-color: rgb(219, 111, 111);
+}
+
 /* FLIP CARD from here to 113 */
 .flip-card {
     background-color: transparent;
