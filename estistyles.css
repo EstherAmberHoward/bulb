@@ -299,6 +299,7 @@ grid-holder {
     }
 
     .navbar.open .nav-toggle {
+  display: block;
   height: 0%;
   width: 100%;
   position: fixed;
